@@ -1,0 +1,23 @@
+{
+	"name": "backbone-s3",
+	"version": "0.0.1",
+	"description": "Backbone.js sync implementation for Amazon S3",
+	"author": "Sergio Alcantara <iserg9@gmail.com> (https://github.com/serg-io)",
+	"homepage": "https://github.com/serg-io/backbone-s3",
+	"keywords": ["backbone", "backbone.js", "s3", "amazon s3", "aws", "amazon"],
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/serg-io/backbone-s3.git"
+	},
+	"main": "backbone-s3.js",
+	"dependencies": {
+		"aws-sdk": "0.9.7-pre.8",
+		"underscore": "1.4.4",
+		"underscore.deferred": "0.4.0",
+		"backbone": "1.0.0",
+		"node-uuid": "1.4.0"
+	},
+	"devDependencies": {
+		"nodeunit": "0.8.0"
+	}
+}
